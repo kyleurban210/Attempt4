@@ -12,6 +12,15 @@ Node::Node()
 
 }
 
+Node :: Node(Node& node_tobe_copied)
+{
+
+	data = node_tobe_copied.data; 
+	next = node_tobe_copied.next; 
+
+
+}
+
 Node::Node(std::string n)
 {
 

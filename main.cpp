@@ -8,10 +8,18 @@
 
 int main()
 {
+	std::string input = ""; 
 
-	LinkedList* listptr = new LinkedList; 
+	std::cout << "Please type a word:   ";
+	std::cin >> input; 
 
-	listptr->head; 
+	LinkedList* listptr = new LinkedList(input, nullptr) ; 
+	
+	
+
+
+	std::cout << "\nMain: " << listptr->head.getData(); //this is a shallow copy, which is why it isn't working. 
+ 
 
 
 }

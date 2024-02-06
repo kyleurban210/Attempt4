@@ -18,6 +18,13 @@ public:
 	Node* next;
 	//Node* prev; 
 
+	//THE FUCKING COPY CONSTRUCTOR (I HATE THEM)
+	Node(Node& node_tobe_copied); 
+
+
+
+
+
 
 
 };
