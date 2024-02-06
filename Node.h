@@ -18,7 +18,7 @@ public:
 	Node* next;
 	//Node* prev; 
 
-	//THE FUCKING COPY CONSTRUCTOR (I HATE THEM)
+	//THE COPY CONSTRUCTOR (I HAVEN"T HAD TO USE IT YET)
 	Node(Node& node_tobe_copied); 
 
 

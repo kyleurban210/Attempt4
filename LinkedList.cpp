@@ -26,7 +26,21 @@ LinkedList::LinkedList(std::string input, Node* ptr)
 	
 	
 
-	std :: cout << "\n LinkedList: " << start->getData(); // I know the data is atleast passing
+	//std :: cout << "\n LinkedList: " << start->getData(); // I know the data is atleast passing
+
+
+}
+
+void LinkedList::push_back(std::string input, Node prev_node)
+{
+
+	Node* new_node = new Node(input, nullptr);
+
+    prev_node.setNext(new_node);  //Will this work? Yes, although only locally. 
+	
+								  //So the pointer is in prev_node but not inside head? 
+
+	//std::cout << "\nThis is the pointer for the head " << ptr;
 
 
 }

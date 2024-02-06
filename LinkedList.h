@@ -13,6 +13,7 @@ public:
 
 	LinkedList();
 	LinkedList(std::string input, Node* ptr);
+	void push_back(std::string input, Node prev_node); 
 	
 
 
